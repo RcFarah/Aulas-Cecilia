@@ -24,12 +24,12 @@ while voto_Encerra == 0:
         voto_Maria += 1
         numero_Votantes += 1
 
-    elif voto > 0 and voto != [1, 2, 3, 4]:
-        voto_Nulo += 1
-        numero_Votantes += 1
-
     elif voto == 4:
         voto_Branco += 1
+        numero_Votantes += 1   
+    
+    elif voto > 0 and voto != [1, 2, 3, 4]:
+        voto_Nulo += 1
         numero_Votantes += 1
 
     elif voto == 0:
