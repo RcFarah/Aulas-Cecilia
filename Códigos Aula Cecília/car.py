@@ -18,4 +18,4 @@ class Car:
         print('Rodagem: >1000Km!')
 
     def ShowCar(self):
-        print('Carro: \n- {}\n- {}\n- {}\n- {}'.format(self.modelo, self.ano, self.km, self.preco))
+        print('Carro: \n- {}\n- {}\n- {}\n- {}'.format(self.model, self.brand, self.year, self.price))
